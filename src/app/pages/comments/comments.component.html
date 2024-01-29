@@ -1,0 +1,9 @@
+<h1>Comments</h1>
+
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let comments of data">
+        <h4>{{ comments.name }}</h4>
+        <p>{{ comments.email }}</p>
+        <p>{{ comments.body }}</p>
+    </li>
+</ul>
